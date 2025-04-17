@@ -85,6 +85,17 @@ git add *
 
 git commit -m 'rajout de la dernière version de webtest'
 
+git branch presentation
+
+git checkout presentation
+
+git add * 
+
+git commit -m "création de présentation.html et ajout du template de base"
+
+git push -u origin presentation
+
+
 
 
 

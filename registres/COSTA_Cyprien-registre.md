@@ -122,3 +122,11 @@ git push origin webtest
 git checkout -b stylev2
 ```
 _Moment de devloppement sur ``VisualStudioCode`` (correction mobile et maj css)._
+
+### On upload sur la branche
+```bash
+git add *
+git commit -m "CSS V2 (responsive correcte)"
+git push origin stylev2
+```
+
