@@ -80,6 +80,8 @@ git pull origin css
 ```
 _Je recheck les dossiers_
 ```bash
+git add *
+git commit -m "je me rappelle plus du nom que j'ai mis"
 git push origin master
 ```
 Je suprime les vieilles branches
@@ -90,6 +92,8 @@ git branch -D css
 ```
 Rendu
 ```bash
+git add *
+git commit -m "je me rappelle plus du nom que j'ai mis"
 git push origin master
 ```
 ## Création page 2
@@ -103,3 +107,11 @@ ls         # petit check au cas ou
 ```
 
 _Moment de devloppement sur ``VisualStudioCode``._
+
+
+```bash
+git add *
+git checkout webtest
+git branch # petit check au cas ou
+ls         # petit check au cas ou
+```
