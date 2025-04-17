@@ -63,13 +63,43 @@ On attend les premiers html de mon collaborateur
 git checkout html
 git pull origin html
 ```
-(il met à jour)
+(il met à jour, entre temps j'ai créer un dossier registre avec ce registre dedans)
 ### Récuperation du html (version à jour)
 ```bash
 git checkout html
 git pull origin html
 ```
+tout est bon je met en master avec validation team
+## Mise en master d'une V1
 
+On ramène le tout en master
+```bash
+git checkout master
+git pull origin html
+git pull origin css
+```
+_Je recheck les dossiers_
+```bash
+git push origin master
+```
+Je suprime les vieilles branches
+```bash
+git branch -d html
+git branch -D css 
+#on force car j'ai du changer un peu le css et il dit que c'est pas full merged
+```
+Rendu
+```bash
+git push origin master
+```
+## Création page 2
 
+Je refais une branche ou je vais faire du html
+```bash
+git branch webtest
+git checkout webtest
+git branch # petit check au cas ou
+ls         # petit check au cas ou
+```
 
-
+_Moment de devloppement sur ``VisualStudioCode``._
