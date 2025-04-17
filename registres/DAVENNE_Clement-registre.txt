@@ -1,0 +1,91 @@
+git init
+
+git remote add origin https://github.com/GozikizoG/projetGIGIT.git
+
+git config user.name "KalkayaLaqi"
+
+git config user.mail "clement.davenne@efrei.net"
+
+git add *
+
+git commit -m 'document de base du projet'
+
+git push -u origin master
+
+git add *
+
+git commit -m 'documents css'
+
+git push -u origin master
+
+git branch mobile
+
+git checkout mobile
+
+git add *
+
+git commit -m 'fichier mobile.css'
+
+git push -u origin mobile
+
+git checkout master
+
+git pull origin html
+
+git pull origin mobile
+
+git checkout mobile
+
+git pull origin html
+
+git add*
+
+git commit -m 'clean du html pour reprendre le nouveau'
+
+git add*
+
+git commit -m 'suppression html dans cette branche'
+
+git push -u origin mobile
+
+cd documents
+
+*problème avec la branche mobile dont j'ai décidé de le recommencer*
+
+
+git clone https://github.com/GozikizoG/projetGIGIT
+
+$ cd projetGIGIT
+
+git branch mobile
+
+git checkout mobile
+
+git add *
+
+git commit -m 'ajout de la base du fichier mobile.css'
+
+git push -u origin mobile
+
+git checkout master
+
+git pull origin mobile
+
+git pull origin webtest
+
+git add *
+
+git commit -m "ajout de mobile et connection avec l'html"
+
+git push -u origin master
+
+git pull origin webtest
+
+git add *
+
+git commit -m 'rajout de la dernière version de webtest'
+
+
+
+
+
