@@ -95,6 +95,18 @@ git commit -m "création de présentation.html et ajout du template de base"
 
 git push -u origin presentation
 
+git add *
+
+git checkout master
+
+git pull origin master
+
+git add registres/DAVENNE_Clement-registre.txt
+
+git commit -m "envoi du registre de Clément"
+
+git push -u origin master
+
 
 
 
