@@ -130,3 +130,24 @@ git commit -m "CSS V2 (responsive correcte)"
 git push origin stylev2
 ```
 
+### import de presentation
+```bash
+git pull origin presentation
+```
+_quelque corrections_
+
+### import dans master
+validation team
+
+```bash
+git checkout master
+git merge stylev2
+git add *
+git commit "finale"
+git push origin master
+```
+
+# FIN 
+
+j'ai pas fait de clone car de base je l'ai créer directement moi.
+Et aussi pour la dernnière partie toute les commandes ne sont pas parfaites car j'ai du speed pour l'upload en master de tout.
