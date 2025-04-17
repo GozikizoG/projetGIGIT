@@ -24,7 +24,7 @@ nano style.css
 # ctrl+S // oui, il est vide
 # ctrl+X // c'est parce que je vais le faire sur VSC
 ```
-_Moment de devloppement sur ``VisualStudioCode``._
+_Moment de devloppement sur ``VisualStudioCode`` (le style.css)._
 
 ## 3. Upload du CSS
 
@@ -81,7 +81,7 @@ git pull origin css
 _Je recheck les dossiers_
 ```bash
 git add *
-git commit -m "je me rappelle plus du nom que j'ai mis"
+git commit -m "Version 1"
 git push origin master
 ```
 Je suprime les vieilles branches
@@ -93,10 +93,10 @@ git branch -D css
 Rendu
 ```bash
 git add *
-git commit -m "je me rappelle plus du nom que j'ai mis"
+# je repush pour les oublies pas besoin de changer de commit
 git push origin master
 ```
-## Création page 2
+## Création page Contact
 
 Je refais une branche ou je vais faire du html
 ```bash
@@ -106,12 +106,19 @@ git branch # petit check au cas ou
 ls         # petit check au cas ou
 ```
 
-_Moment de devloppement sur ``VisualStudioCode``._
+_Moment de devloppement sur ``VisualStudioCode`` (page contacte et des corrections)._
 
 
 ```bash
-git add *
-git checkout webtest
-git branch # petit check au cas ou
-ls         # petit check au cas ou
+git add * # je met tout pour que ce soit fonctionnel à 100% car clément n'a pas tout à jours
+git commit -m "page contact"
+git push origin webtest
 ```
+
+## update TOUT css
+(le css pour la page 3 et le mobile pour 2 3 trucs)
+
+```bash
+git checkout -b stylev2
+```
+_Moment de devloppement sur ``VisualStudioCode`` (correction mobile et maj css)._
