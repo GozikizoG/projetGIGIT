@@ -20,10 +20,11 @@
     <a href="../pages/contact.html">Contact</a>
 </nav>
 <main>
-    <h2>Nous contacter :</h2><br>
+    <h2>Nous contacter :</h2><br>   
     <form action="../traitement/contact.php" method="post">
         <input type="email" name="email" id="email" maxlength="100" placeholder="adresse email"><br><br>
-        <input type="textbox" name="msg" id="msg" maxlength="2000" placeholder="Votre texte ici... (nombre de caractères max 2000)">
+        <textarea placeholder="Votre méssage ici... (limite à 4000 char)" name="msg" id="msg" cols="80" rows="15" maxlength="4000"></textarea>
+
     </form>
 </main>
 <aside>
